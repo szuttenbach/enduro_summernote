@@ -1,27 +1,27 @@
-// inject quill css into the admin interface
-$('head').append('<link href="https://cdn.quilljs.com/1.3.3/quill.snow.css" rel="stylesheet">')
-$('head').append('<link href="https://cdn.quilljs.com/1.3.3/quill.bubble.css" rel="stylesheet">')
+// inject summernote css into the admin interface
+$('head').append('<link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.11/summernote.css" rel="stylesheet">')
 
 // * ———————————————————————————————————————————————————————— * //
-// *	quill directive
+// *	summernote directive
 // * ———————————————————————————————————————————————————————— * //
 enduro_admin_app.compileProvider
-	.directive('quill', function () {
+	.directive('summernote', function () {
 		return {
 			link: function (scope, element, attr) {
-				$.getScript('https://cdn.quilljs.com/1.3.3/quill.js', function () {
+				$.getScript('http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.11/summernote.js', function () {
 
 					var editor = new Quill(element[0], brick_admin_settings.enduro_quill)
 
 					editor.on('text-change', function(delta, oldDelta, source) {
-						scope.context[scope.terminatedkey] = editor.root.innerHTML
+
+						// scope.context[scope.terminatedkey] = editor.root.innerHTML
 					})
 
 					scope.$watch('current_culture', function () {
-						editor.root.innerHTML = scope.context[scope.terminatedkey] || ''
+						// editor.root.innerHTML = scope.context[scope.terminatedkey] || ''
 					})
 
-					editor.root.innerHTML = scope.context[scope.terminatedkey]
+					// editor.root.innerHTML = scope.context[scope.terminatedkey]
 				})
 			}
 		}

@@ -1,7 +1,7 @@
 {
-  "name": "enduro_quill",
+  "name": "enduro_summernote",
   "version": "1.0.5",
-  "description": "adds quill wysiwyg editor to enduro",
+  "description": "adds summernote wysiwyg editor to enduro",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,8 +12,8 @@
     "enduro",
     "enduro_plugin"
   ],
-  "author": "Martin Gottweis",
+  "author": "Piotr Szuttenbach",
   "license": "MIT",
-  "repository": "https://github.com/Gottwik/enduro_quill.git",
+  "repository": "https://github.com/szuttenbach/enduro_summernote.git",
   "dependencies": {}
 }
