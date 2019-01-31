@@ -1,6 +1,6 @@
 {
   "name": "enduro_summernote",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "adds summernote wysiwyg editor to enduro",
   "main": "index.js",
   "scripts": {
