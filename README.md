@@ -24,61 +24,61 @@ Sample configuration without font family
 
 ```json
 "enduro_summernote": {
-			"maxHeight": 300,
-			"toolbar": [
-				[
-					"style",
-					[
-						"bold",
-						"italic",
-						"underline",
-						"clear"
-					]
-				],
-				[
-					"font",
-					[
-						"strikethrough",
-						"superscript",
-						"subscript"
-					]
-				],
-				[
-					"fontsize",
-					[
-						"fontsize"
-					]
-				],
-				[
-					"para",
-					[
-						"ul",
-						"ol",
-						"paragraph",
-						"height"
-					]
-				],
-				[
-					"media",
-					[
-						"picture",
-						"link",
-						"video",
-						"table",
-						"hr"
-					]
-				],
-				[
-					"code",
-					[
-						"codeview",
-						"fullscreen",
-						"undo",
-						"redo"
-					]
-				]
-			]
-    }
+  "maxHeight": 300,
+  "toolbar": [
+    [
+      "style",
+      [
+        "bold",
+        "italic",
+        "underline",
+        "clear"
+      ]
+    ],
+    [
+      "font",
+      [
+        "strikethrough",
+        "superscript",
+        "subscript"
+      ]
+    ],
+    [
+      "fontsize",
+      [
+        "fontsize"
+      ]
+    ],
+    [
+      "para",
+      [
+        "ul",
+        "ol",
+        "paragraph",
+        "height"
+      ]
+    ],
+    [
+      "media",
+      [
+        "picture",
+        "link",
+        "video",
+        "table",
+        "hr"
+      ]
+    ],
+    [
+      "code",
+      [
+        "codeview",
+        "fullscreen",
+        "undo",
+        "redo"
+      ]
+    ]
+  ]
+}
 ```
 
 ## Built With
@@ -92,9 +92,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-- **Piotr Szuttenbach** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+- **Piotr Szuttenbach** - [Appstract Software](http://appstract.software)
 
 ## License
 
