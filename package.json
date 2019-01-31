@@ -1,0 +1,19 @@
+{
+  "name": "enduro_summernote",
+  "version": "1.0.2",
+  "description": "adds summernote wysiwyg editor to enduro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "enduro.js",
+    "enduro_admin",
+    "enduro",
+    "enduro_plugin"
+  ],
+  "author": "Piotr Szuttenbach",
+  "license": "MIT",
+  "repository": "https://github.com/szuttenbach/enduro_summernote.git",
+  "dependencies": {}
+}
