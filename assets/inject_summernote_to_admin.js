@@ -13,6 +13,7 @@ enduro_admin_app.compileProvider
         $.getScript('https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote-lite.js', function () {
 
           $(element[0]).summernote(brick_admin_settings.enduro_summernote);
+          $(element[0]).summernote('fontSize', 16);
 
           $(element[0]).on('summernote.change', function(_, contents) {
             scope.context[scope.terminatedkey] = contents;
